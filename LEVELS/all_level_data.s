@@ -135,7 +135,7 @@
 		.incbin "EXPORTS/lookatthislevel.lz.bin" ; Size: 1609
 
 
-.segment "LVL_BANK_09"	; Total bank size: 8138 bytes
+.segment "LVL_BANK_09"	; Total bank size: 8143 bytes
 	.export level_data_deadlocked
 	level_data_deadlocked:
 	; Header
