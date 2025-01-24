@@ -125,12 +125,12 @@ test4_no_parallax  = 1
 test4_bg_color    = $12
 test4_grnd_color  = $02
 
-supercycles_song_number = song_cycles
-supercycles_game_mode   = $00
-supercycles_speed       = $00
-supercycles_no_parallax  = 1
-supercycles_bg_color    = $12
-supercycles_grnd_color  = $02
+;supercycles_song_number = song_cycles
+;supercycles_game_mode   = $00
+;supercycles_speed       = $00
+;supercycles_no_parallax  = 1
+;supercycles_bg_color    = $12
+;supercycles_grnd_color  = $02
 
 foresttemple_song_number = song_haunted_woods
 foresttemple_game_mode   = $00
@@ -343,3 +343,10 @@ geometricaldominator_speed       = $00
 geometricaldominator_no_parallax  = 1
 geometricaldominator_bg_color    = $0F
 geometricaldominator_grnd_color  = $0F
+
+pgclubstep_song_number = song_clubstep
+pgclubstep_game_mode   = $00
+pgclubstep_speed       = $00
+pgclubstep_no_parallax  = 0
+pgclubstep_bg_color    = $0F
+pgclubstep_grnd_color  = $0F

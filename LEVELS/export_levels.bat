@@ -47,8 +47,10 @@ SET all_levels= ^
     firetemple ^
     foresttemple ^
     eon ^
+    pgclubstep ^
     stalemate ^
     bloodbath ^
+    cataclysm ^
     luckydraw ^
     test4 ^
 
