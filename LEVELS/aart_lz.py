@@ -43,7 +43,7 @@ def compress(input_data : bytearray):
                     buf_ind %= 256
                 elif len(aux) == 1:
                     if data[index] >= 0x81 and data[index] <= 0xFE:
-                        final.append((data[index]&0x7f)|(1<<7))
+                        final.append(data[index])#&0x7f)|(1<<7))
                     else:
                         final.append(0x80)
                         final.append(data[index])

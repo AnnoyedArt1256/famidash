@@ -80,10 +80,10 @@ LZ_get_byte:
   rts
 
 @skip_end:
-  cmp #$81
-  bcs @write_byte
   cmp #$80
   beq @is_imm ; bcs in OG src, works either way
+  bcs @write_byte
+
   tax
   inx
   stx LZ_copy_left

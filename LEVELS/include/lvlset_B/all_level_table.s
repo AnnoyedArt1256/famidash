@@ -117,27 +117,24 @@ _level_chunk_list_lo:
 	.byte .lobyte(level_data_subtleoddities_1)
 	.byte .lobyte(level_data_highlife_2)
 	.byte .lobyte(level_data_deathmoon_3)
-	.byte .lobyte(level_data_motion_4)
+	.byte .lobyte(level_data_futurefunk_4)
 	.byte .lobyte(level_data_futurefunk_5)
-	.byte .lobyte(level_data_futurefunk_6)
 
 _level_chunk_list_hi:
 	.byte .hibyte(level_data_thesteamworks_0)
 	.byte .hibyte(level_data_subtleoddities_1)
 	.byte .hibyte(level_data_highlife_2)
 	.byte .hibyte(level_data_deathmoon_3)
-	.byte .hibyte(level_data_motion_4)
+	.byte .hibyte(level_data_futurefunk_4)
 	.byte .hibyte(level_data_futurefunk_5)
-	.byte .hibyte(level_data_futurefunk_6)
 
 _level_chunk_list_bank:
 	.byte .lobyte(.bank(level_data_thesteamworks_0))
 	.byte .lobyte(.bank(level_data_subtleoddities_1))
 	.byte .lobyte(.bank(level_data_highlife_2))
 	.byte .lobyte(.bank(level_data_deathmoon_3))
-	.byte .lobyte(.bank(level_data_motion_4))
+	.byte .lobyte(.bank(level_data_futurefunk_4))
 	.byte .lobyte(.bank(level_data_futurefunk_5))
-	.byte .lobyte(.bank(level_data_futurefunk_6))
 
 _sprite_list_lo:
 	.byte .lobyte(sprite_data_sonar)

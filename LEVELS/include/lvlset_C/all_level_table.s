@@ -83,31 +83,28 @@ _level_chunk_list_lo:
 	.byte .lobyte(level_data_dearnostalgists_0)
 	.byte .lobyte(level_data_eon_1)
 	.byte .lobyte(level_data_sonicwave_2)
-	.byte .lobyte(level_data_windylandscape_3)
+	.byte .lobyte(level_data_aftercatabath_3)
 	.byte .lobyte(level_data_aftercatabath_4)
-	.byte .lobyte(level_data_aftercatabath_5)
+	.byte .lobyte(level_data_everyend_5)
 	.byte .lobyte(level_data_everyend_6)
-	.byte .lobyte(level_data_everyend_7)
 
 _level_chunk_list_hi:
 	.byte .hibyte(level_data_dearnostalgists_0)
 	.byte .hibyte(level_data_eon_1)
 	.byte .hibyte(level_data_sonicwave_2)
-	.byte .hibyte(level_data_windylandscape_3)
+	.byte .hibyte(level_data_aftercatabath_3)
 	.byte .hibyte(level_data_aftercatabath_4)
-	.byte .hibyte(level_data_aftercatabath_5)
+	.byte .hibyte(level_data_everyend_5)
 	.byte .hibyte(level_data_everyend_6)
-	.byte .hibyte(level_data_everyend_7)
 
 _level_chunk_list_bank:
 	.byte .lobyte(.bank(level_data_dearnostalgists_0))
 	.byte .lobyte(.bank(level_data_eon_1))
 	.byte .lobyte(.bank(level_data_sonicwave_2))
-	.byte .lobyte(.bank(level_data_windylandscape_3))
+	.byte .lobyte(.bank(level_data_aftercatabath_3))
 	.byte .lobyte(.bank(level_data_aftercatabath_4))
-	.byte .lobyte(.bank(level_data_aftercatabath_5))
+	.byte .lobyte(.bank(level_data_everyend_5))
 	.byte .lobyte(.bank(level_data_everyend_6))
-	.byte .lobyte(.bank(level_data_everyend_7))
 
 _sprite_list_lo:
 	.byte .lobyte(sprite_data_everymadness)
